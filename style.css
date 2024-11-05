@@ -1,0 +1,128 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #333;
+}
+
+/* Page Heading */
+h1 {
+    color: black;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+legend {
+    color: #3498db;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2b7aaf;
+}
+
+/* Dynamic Resume Display */
+#resume-display {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#resume-display h2 {
+    color: #3498db;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#resume-display p {
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+#resume-display h3 {
+    color: black;
+    font-size: 1.4em;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+#resume-display p b {
+    color: #3498db;
+}
